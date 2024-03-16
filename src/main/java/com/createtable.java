@@ -25,7 +25,7 @@ public class createtable {
 		
 		Class.forName("com.mysql.jdbc.Driver");
 		
-		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/contact", "root", "root");
+		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jassignment", "root", "root");
 		
 		return connection;
 	}

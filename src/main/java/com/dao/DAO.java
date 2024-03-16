@@ -95,7 +95,7 @@ public class DAO {
 	//
 public int  addproduct(HttpServletRequest request) {
 		
-	String path = "C:/Users/Swapnil/eclipse-workspace/imagetable2/src/main/webapp/";
+	String path = "C:/Users/Divya/eclipse-workspace/server/images/src/main/webapp/";
 	
 	
 	
