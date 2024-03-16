@@ -23,9 +23,9 @@ public class createtable {
 	public static Connection getConnection() throws ClassNotFoundException, SQLException 
 	{
 		
-		Class.forName("org.sqlite.JDBC");
+		Class.forName("com.mysql.jdbc.Driver");
 		
-		Connection connection = DriverManager.getConnection("jdbc:sqlite:dtclass.db");
+		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/contact", "root", "root");
 		
 		return connection;
 	}
